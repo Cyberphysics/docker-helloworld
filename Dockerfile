@@ -5,7 +5,7 @@
 
 
 # Set the base image to Ubuntu
-FROM ubuntu
+FROM ubuntu:18.04
 
 # File Author / Maintainer
 #AUTHOR leftoy
@@ -14,4 +14,4 @@ FROM ubuntu
 
 # Set the default command to execute
 # when creating a new container
-CMD ["/bin/sh","-c","echo 'Hello, I am leftoy!'"]
+CMD ["/bin/sh","-c","echo 'Hello, I am leftoy! This is 1.'"]
