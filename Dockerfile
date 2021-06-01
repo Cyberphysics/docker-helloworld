@@ -10,6 +10,7 @@ FROM ubuntu:18.04
 # File Author / Maintainer
 #AUTHOR leftoy
 ADD echo.sh /echo.sh
+RUN chmod +x /echo.sh
 ENTRYPOINT [ "/echo.sh" ]
 
 # Set the default command to execute
